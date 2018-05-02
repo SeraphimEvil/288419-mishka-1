@@ -1,204 +1,207 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Мишка</title>
-    <meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body class="no-js">
-    <header class="page-header page-header--menu-open">
-      <nav class="main-nav">
-        <li class="main-nav__item main-nav__item--catalog">
-          <a href="catalog.html" class="main-nav__link">Каталог товаров</a>
-        </li>
-        <li class="main-nav__item main-nav__item--for-order">
-          <a href="form.html" class="main-nav__link">Вязание на заказ</a>
-        </li>
-        <li class="main-nav__item main-nav__item--search">
-          <a href="#" class="main-nav__link main-nav__search">Поиск по сайту</a>
-        </li>
-        <li class="main-nav__item main-nav__item--cart">
-          <a href="#" class="main-nav__link main-nav__cart">Корзина: пока пуста</a>
-        </li>
-      </nav>
-      <div class="page-header__logo">
-        <a href="#">
-          <picture>
-            <source media="(min-width: 768px)"
-                    srcset="img/logo-tablet.svg">
-            <source media="(min-width: 1200px)"
-                    srcset="img/logo-desktop.svg">
-            <img src="img/logo-mobile.svg" alt="логотип мобильный">
-          </picture>
-        </a>
-      </div>
-      <button class="page-header__toggle" type="button">Открыть меню</button>
-      <div class="page-header__delivery">Бесплатная доставка по России</div>
-    </header>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Мишка</title>
+  <meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="no-js">
+<header class="page-header page-header--menu-open">
+  <nav class="main-nav">
+    <li class="main-nav__item main-nav__item--catalog">
+      <a href="catalog.html" class="main-nav__link">Каталог товаров</a>
+    </li>
+    <li class="main-nav__item main-nav__item--for-order">
+      <a href="form.html" class="main-nav__link">Вязание на заказ</a>
+    </li>
+    <li class="main-nav__item main-nav__item--search">
+      <a href="#" class="main-nav__link main-nav__search">Поиск по сайту</a>
+    </li>
+    <li class="main-nav__item main-nav__item--cart">
+      <a href="#" class="main-nav__link main-nav__cart">Корзина: пока пуста</a>
+    </li>
+  </nav>
+  <div class="page-header__logo">
+    <a href="#">
+      <picture>
+        <source media="(min-width: 768px)"
+                srcset="img/logo-tablet.svg">
+        <source media="(min-width: 1200px)"
+                srcset="img/logo-desktop.svg">
+        <img src="img/logo-mobile.svg" alt="логотип мобильный">
+      </picture>
+    </a>
+  </div>
+  <button class="page-header__toggle" type="button">Открыть меню</button>
+  <div class="page-header__delivery">Бесплатная доставка по России</div>
+</header>
 
-    <main class="page-main">
-      <section class="promo promo--index">
-        <h1>Милые штуки ручной работы&nbsp;для&nbsp;дома</h1>
-        <a href="interier-goods.html" class="promo__item promo__item--goods">Предметы интерьера</a>
-        <a href="kids-toys.html" class="promo__item promo__item--toys">Детские игрушки</a>
-      </section>
-      <section class="feauteres">
-        <div class="feauteres__top">
-          <h2>Вязаные корзинки</h2>
-          <span>Товар недели</span>
+<main class="page-main">
+  <section class="promo promo--index">
+    <h1>Милые штуки ручной работы&nbsp;для&nbsp;дома</h1>
+    <a href="interier-goods.html" class="promo__item promo__item--goods">Предметы интерьера</a>
+    <a href="kids-toys.html" class="promo__item promo__item--toys">Детские игрушки</a>
+  </section>
+  <section class="feauteres">
+    <div class="feauteres__top">
+      <h2>Вязаные корзинки</h2>
+      <span>Товар недели</span>
+    </div>
+    <!-- принять решение и сделать нормально -->
+    <div class="feauteres__mobile">
+      <p>Экологически чистая пряжа, ручная работа. Доступные в шести расцветках, и трех размерах.</p>
+      <div class="feauteres__parameters">
+        <div class="feauteres__row">
+          <div class="feauteres__param">Цвет:</div>
+          <div class="feauteres__info">&laquo;Тиффани&raquo;/серый</div>
         </div>
-        <!-- принять решение и сделать нормально -->
-        <div class="feauteres__mobile">
-          <p>Экологически чистая пряжа, ручная работа. Доступные в шести расцветках, и трех размерах.</p>
-          <div class="feauteres__parameters">
-            <div class="feauteres__row">
-              <div class="feauteres__param">Цвет:</div>
-              <div class="feauteres__info">&laquo;Тиффани&raquo;/серый</div>
-            </div>
-            <div class="feauteres__row">
-              <div class="feauteres__param">Диаметр:</div>
-              <div class="feauteres__info">25 см</div>
-            </div>
-            <div class="feauteres__row">
-              <div class="feauteres__param">Высота:</div>
-              <div class="feauteres__info">15 см</div>
-            </div>
-          </div>
-          <img class="feauteres__img" src="img/triple-set-mobile@1x.jpg" srcset="img/triple-set-mobile@2x.jpg" alt="feauteres image" width="260" height="315">
-          <div class="feauteres__price">Цена: 990 руб.</div>
-          <a href="#" class="feauteres__btn btn" id="order" type="button">Заказать</a>
+        <div class="feauteres__row">
+          <div class="feauteres__param">Диаметр:</div>
+          <div class="feauteres__info">25 см</div>
         </div>
-        <!-- принять решение и сделать нормально -->
-        <div class="feauteres__tablet">
-          <div class="feauteres__column-info">
-            <p>Экологически чистая пряжа, ручная работа. Доступные в шести расцветках, и трех размерах.</p>
-            <div class="feauteres__parameters">
-              <div class="feauteres__row">
-                <div class="feauteres__param">Цвет:</div>
-                <div class="feauteres__info">&laquo;Тиффани&raquo;/серый</div>
-              </div>
-              <div class="feauteres__row">
-                <div class="feauteres__param">Диаметр:</div>
-                <div class="feauteres__info">25 см</div>
-              </div>
-              <div class="feauteres__row">
-                <div class="feauteres__param">Высота:</div>
-                <div class="feauteres__info">15 см</div>
-              </div>
-            </div>
-            <div class="feauteres__price">Цена: 990 руб.</div>
-            <a href="#" class="feauteres__btn btn" id="order" type="button">Заказать</a>
+        <div class="feauteres__row">
+          <div class="feauteres__param">Высота:</div>
+          <div class="feauteres__info">15 см</div>
+        </div>
+      </div>
+      <img class="feauteres__img" src="img/triple-set-mobile@1x.jpg" srcset="img/triple-set-mobile@2x.jpg"
+            alt="feauteres image" width="260" height="315">
+      <div class="feauteres__price">Цена: 990 руб.</div>
+      <a href="#" class="feauteres__btn btn" id="order" type="button">Заказать</a>
+    </div>
+    <!-- принять решение и сделать нормально -->
+    <div class="feauteres__tablet">
+      <div class="feauteres__column-info">
+        <p>Экологически чистая пряжа, ручная работа. Доступные в шести расцветках, и трех размерах.</p>
+        <div class="feauteres__parameters">
+          <div class="feauteres__row">
+            <div class="feauteres__param">Цвет:</div>
+            <div class="feauteres__info">&laquo;Тиффани&raquo;/серый</div>
           </div>
-          <div class="feauteres__column-img">
-            <picture>
-              <img src="img/triple-set-tablet@1x.jpg" srcset="img/triple-set-tablet@2x.jpg" alt="fet img" width="335">
-            </picture>
+          <div class="feauteres__row">
+            <div class="feauteres__param">Диаметр:</div>
+            <div class="feauteres__info">25 см</div>
+          </div>
+          <div class="feauteres__row">
+            <div class="feauteres__param">Высота:</div>
+            <div class="feauteres__info">15 см</div>
           </div>
         </div>
-      </section>
-      <section class="about-us">
-        <h2>Коротко о нас:</h2>
-        <div class="about-us__item about-us__item--1">
-          <img src="img/icon-feature-1.svg" width="33" height="38" alt="about-us img" class="about-us__img">
-          <p>Экологически <br> чистые материалы</p>
-        </div>
-        <div class="about-us__item about-us__item--2">
-          <img src="img/icon-feature-3.svg" width="47" height="27" alt="about-us img" class="about-us__img">
-          <p>Скандинавский стиль <br> по российской цене</p>
-        </div>
-        <div class="about-us__item about-us__item--3">
-          <img src="img/icon-feature-5.svg" width="34" height="27" alt="about-us img" class="about-us__img">
-          <p>Увеличивает лайки <br> на фотографиях</p>
-        </div>
-        <div class="about-us__item about-us__item--4">
-          <img src="img/icon-feature-2.svg" width="35" height="34" alt="about-us img" class="about-us__img">
-          <p>Связано вручную с любовью и умилением</p>
-        </div>
-        <div class="about-us__item about-us__item--5">
-          <img src="img/icon-feature-4.svg" width="55" height="23" alt="about-us img" class="about-us__img">
-          <p>Поддержка отечественного производителя</p>
-        </div>
-        <div class="about-us__item about-us__item--6">
-          <img src="img/icon-feature-6.svg" width="33" height="32" alt="about-us img" class="about-us__img">
-          <p>Поставляется в подарочной упаковке</p>
-        </div>
-      </section>
-      <section class="feedback">
-        <h2>Отзывы</h2>
-        <blockquote class="feedback__item">
-          <p>Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</p>
-          <cite class="feedback__author">Анастасия Красильникова</cite>
-          <span class="feedback__author-tag">@misssssiskras</span>
-        </blockquote>
-        <div class="feedback__buttons">
-          <button class="feedback__button feedback__button--prev">Предыдущий</button>
-          <button class="feedback__button feedback__button--next">Следующий</button>
-        </div>
-        <a href="form.html" class="feedback__btn btn">Написать</a>
-      </section>
-      <section class="contact">
-        <div class="contact__top">
-          <h2>Контакты</h2>
-          <img src="img/icon-flag.svg">
-        </div>
-        <div class="contact__item">
-          <div class="contact__title">e-mail:</div>
-          <a href="#" class="contact__text">info@mimimishkashop.ru</a>
-        </div>
-        <div class="contact__item">
-          <div class="contact__title">адрес:</div>
-          <div class="contact__text">г. Санкт-Петербург, <br> ул. Большая Конюшенная, <br> д. 19/8, офис 101</div>
-        </div>
-      </section>
-      <section class="map">
+        <div class="feauteres__price">Цена: 990 руб.</div>
+        <a href="#" class="feauteres__btn btn" id="order" type="button">Заказать</a>
+      </div>
+      <div class="feauteres__column-img">
         <picture>
-          <source media="(min-width: 768px)"
-            srcset="img/map-tablet@1x.jpg">
-          <source media="(min-width: 1200px)"
-            srcset="img/map-desktop@1x.jpg">
-          <img src="img/map-mobile@1x.jpg" srcset="img/map-mobile@2x.jpg" width="320" height="457" alt="map">
+          <img src="img/triple-set-tablet@1x.jpg" srcset="img/triple-set-tablet@2x.jpg" alt="fet img" width="335">
         </picture>
-        <a href="feedback-us" class="map__btn btn">Напишите нам</a>
-      </section>
-    </main>
-
-    <footer class="page-footer">
-      <a href="#" class="page-footer__link-logo">
-        <picture>
-          <source media="(min-width: 768px)"
-                  srcset="img/logo-tablet.svg">
-          <source media="(min-width: 1200px)"
-                  srcset="img/logo-desktop.svg">
-          <img src="img/logo-mobile.svg" alt="логотип мобильный">
-        </picture>
-      </a>
-      <div class="page-footer__social social">
-        <a href="#" class="social__btn  social__btn--insta">
-        </a>
-        <a href="#" class="social__btn  social__btn--facebook">
-        </a>
-        <a href="#" class="social__btn  social__btn--twitter">
-        </a>
-      </div>
-      <div class="page-footer__logo">
-        <p class="page-footer__copyright">Разработано</p>
-        <a class="page-footer__logo-img" href="#"></a>
-      </div>
-    </footer>
-
-    <div class="modal">
-      <div class="modal__content">
-        <h2>Добавить в корзину</h2>
-        <p>Выберите размер:</p>
-        <div class="modal__size">
-          <a href="#" class="modal__btn modal__btn--current">S</a>
-          <a href="#" class="modal__btn">M</a>
-          <a href="#" class="modal__btn">L</a>
-        </div>
-        <a href="#" class="modal__size-btn btn">Добавить</a>
       </div>
     </div>
+  </section>
+  <section class="about-us">
+    <h2>Коротко о нас:</h2>
+    <div class="about-us__item about-us__item--1">
+      <img src="img/icon-feature-1.svg" width="33" height="38" alt="about-us img" class="about-us__img">
+      <p>Экологически <br> чистые материалы</p>
+    </div>
+    <div class="about-us__item about-us__item--2">
+      <img src="img/icon-feature-3.svg" width="47" height="27" alt="about-us img" class="about-us__img">
+      <p>Скандинавский стиль <br> по российской цене</p>
+    </div>
+    <div class="about-us__item about-us__item--3">
+      <img src="img/icon-feature-5.svg" width="34" height="27" alt="about-us img" class="about-us__img">
+      <p>Увеличивает лайки <br> на фотографиях</p>
+    </div>
+    <div class="about-us__item about-us__item--4">
+      <img src="img/icon-feature-2.svg" width="35" height="34" alt="about-us img" class="about-us__img">
+      <p>Связано вручную с любовью и умилением</p>
+    </div>
+    <div class="about-us__item about-us__item--5">
+      <img src="img/icon-feature-4.svg" width="55" height="23" alt="about-us img" class="about-us__img">
+      <p>Поддержка отечественного производителя</p>
+    </div>
+    <div class="about-us__item about-us__item--6">
+      <img src="img/icon-feature-6.svg" width="33" height="32" alt="about-us img" class="about-us__img">
+      <p>Поставляется в подарочной упаковке</p>
+    </div>
+  </section>
+  <section class="feedback">
+    <h2>Отзывы</h2>
+    <blockquote class="feedback__item">
+      <p>Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных
+        инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более
+        стильными, а также набирают больше лайков!</p>
+      <cite class="feedback__author">Анастасия Красильникова</cite>
+      <span class="feedback__author-tag">@misssssiskras</span>
+    </blockquote>
+    <div class="feedback__buttons">
+      <button class="feedback__button feedback__button--prev">Предыдущий</button>
+      <button class="feedback__button feedback__button--next">Следующий</button>
+    </div>
+    <a href="form.html" class="feedback__btn btn">Написать</a>
+  </section>
+  <section class="contact">
+    <div class="contact__top">
+      <h2>Контакты</h2>
+      <img src="img/icon-flag.svg">
+    </div>
+    <div class="contact__item">
+      <div class="contact__title">e-mail:</div>
+      <a href="#" class="contact__text">info@mimimishkashop.ru</a>
+    </div>
+    <div class="contact__item">
+      <div class="contact__title">адрес:</div>
+      <div class="contact__text">г. Санкт-Петербург, <br> ул. Большая Конюшенная, <br> д. 19/8, офис 101</div>
+    </div>
+  </section>
+  <section class="map">
+    <picture>
+      <source media="(min-width: 768px)"
+              srcset="img/map-tablet@1x.jpg">
+      <source media="(min-width: 1200px)"
+              srcset="img/map-desktop@1x.jpg">
+      <img src="img/map-mobile@1x.jpg" srcset="img/map-mobile@2x.jpg" width="320" height="457" alt="map">
+    </picture>
+    <a href="feedback-us" class="map__btn btn">Напишите нам</a>
+  </section>
+</main>
 
-  </body>
+<footer class="page-footer">
+  <a href="#" class="page-footer__link-logo">
+    <picture>
+      <source media="(min-width: 768px)"
+              srcset="img/logo-tablet.svg">
+      <source media="(min-width: 1200px)"
+              srcset="img/logo-desktop.svg">
+      <img src="img/logo-mobile.svg" alt="логотип мобильный">
+    </picture>
+  </a>
+  <div class="page-footer__social social">
+    <a href="#" class="social__btn  social__btn--insta">
+    </a>
+    <a href="#" class="social__btn  social__btn--facebook">
+    </a>
+    <a href="#" class="social__btn  social__btn--twitter">
+    </a>
+  </div>
+  <div class="page-footer__logo">
+    <p class="page-footer__copyright">Разработано</p>
+    <a class="page-footer__logo-img" href="#"></a>
+  </div>
+</footer>
+
+<div class="modal">
+  <div class="modal__content">
+    <h2>Добавить в корзину</h2>
+    <p>Выберите размер:</p>
+    <div class="modal__size">
+      <a href="#" class="modal__btn modal__btn--current">S</a>
+      <a href="#" class="modal__btn">M</a>
+      <a href="#" class="modal__btn">L</a>
+    </div>
+    <a href="#" class="modal__size-btn btn">Добавить</a>
+  </div>
+</div>
+
+</body>
 </html>

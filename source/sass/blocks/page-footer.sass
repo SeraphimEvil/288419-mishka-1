@@ -1,0 +1,53 @@
+.page-footer
+  background-color: #f1f1f1
+  padding: 0 30px
+
+  @media #{$tablet}
+    padding: 0 50px
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: center
+    height: 140px
+
+
+.page-footer__social
+  border-bottom: 1px solid #ececec
+  display: flex
+  justify-content: center
+  align-items: center
+  min-height: 80px
+
+  @media #{$tablet}
+    min-height: auto
+    border: none
+
+
+.page-footer__logo
+  min-height: 80px
+  display: flex
+  justify-content: space-around
+  align-items: center
+
+
+.page-footer__copyright
+  font-size: 19px
+  color: #000
+  font-weight: bold
+  line-height: 1.2
+
+  @media #{$tablet}
+    margin-right: 30px
+
+
+.page-footer__logo-img
+  width: 27px
+  height: 34px
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  background-image: url('../img/htmlacademy.svg')
+
+.page-footer__link-logo
+  @media #{$mobile}
+    display: none

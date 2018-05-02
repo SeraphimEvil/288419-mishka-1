@@ -1,0 +1,98 @@
+.main-nav
+  display: flex
+  flex-wrap: wrap
+  flex-direction: column
+  order: 2
+
+  @media #{$tablet}
+    flex-direction: row
+
+
+.main-nav__item
+  padding-left: 70px
+  min-height: 78px
+  display: flex
+  align-items: center
+  border-bottom: 1px solid #ececec
+
+  @media #{$tablet}
+    padding-left: 0px
+    border-bottom: none
+
+
+    &--search
+      order: 1
+      width: 82px
+      border-left: 1px solid #ececec
+
+    &--cart
+      border-left: 1px solid #ececec
+      order: 2
+      padding-left: 84px
+
+    &--catalog
+      position: absolute
+      top: 90px
+      left: 50px
+      z-index: 1
+      order: 3
+
+      // @media #{$desc}
+        // left
+
+    &--for-order
+      position: absolute
+      top: 90px
+      left: 220px
+      z-index: 1
+      order: 4
+
+  &:last-child
+    border-bottom: none
+
+
+
+.main-nav__link
+  color: #000
+  font-size: 17px
+  line-height: 24px
+  font-weight: bold
+
+
+.main-nav__search,
+.main-nav__cart
+  position: relative
+
+  &::before
+    position: absolute
+    content: ''
+    width: 20px
+    height: 20px
+    background-repeat: no-repeat
+    background-position: center
+    left: -45px
+    opacity: 0.2
+
+
+.main-nav__search
+  @media #{$tablet}
+    font-size: 0px
+    width: 100%
+
+
+  &::before
+    background-image: url('../img/icon-search.svg')
+
+    @media #{$tablet}
+      left: 50%
+      transform: translateX(-50%)
+
+
+
+
+
+.main-nav__cart
+  @media #{$tablet}
+
+  &::before
+    background-image: url('../img/icon-cart.svg')

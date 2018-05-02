@@ -1,0 +1,135 @@
+.feauteres
+  padding: 0 30px
+  padding-bottom: 40px
+  position: relative
+
+  &::before
+    position: absolute
+    content: ''
+    width: 100%
+    height: 24px
+    bottom: 0
+    left: 0
+    right: 0
+    background: url('../img/bg-zigzag-line.svg') no-repeat
+
+  @media #{$tablet}
+    padding: 50px
+    padding-bottom: 80px
+
+  h2
+    color: #000
+    font-weight: 700
+
+    @media #{$mobile}
+      font-size: 25px
+      line-height: 30px
+      margin-top: 30px
+      margin-bottom: 5px
+
+    @media #{$tablet}
+      font-size: 43px
+      line-height: 50px
+
+  p
+    @media #{$mobile}
+      margin-bottom: 30px
+
+    @media #{$tablet}
+      font-size: 17px
+      line-height: 30px
+
+  span
+    font-size: 17px
+    line-height: 20px
+    font-weight: bold
+    color: #63d1bb
+    text-transform: uppercase
+    display: block
+
+.feauteres__top
+  display: flex
+  flex-wrap: wrap
+
+  @media #{$mobile}
+    flex-direction: column
+    margin-bottom: 30px
+
+  @media #{$tablet}
+    flex-direction: row
+    justify-content: space-between
+    margin-bottom: 50px
+
+    span
+      width: 100px
+      height: 50px
+      line-height: 25px
+      text-align: center
+
+
+.feauteres__row
+  display: flex
+  flex-wrap: wrap
+  border-bottom: 1px solid #ececec
+  padding: 10px 0
+
+
+.feauteres__param
+  width: 40%
+
+.feauteres__info
+  width: 60%
+
+.feauteres__img
+  width: 100%
+  height: 315px
+  margin: 25px auto
+  background-image: url('../img/triple-set-mobile@1x.jpg')
+
+.feauteres__price
+  font-size: 17px
+  line-height: 24px
+  text-align: center
+  font-weight: bold
+
+  @media #{$mobile}
+    margin-bottom: 20px
+
+  @media #{$tablet}
+    font-size: 20px
+
+
+.feauteres__btn
+  @media #{$mobile}
+    margin-bottom: 30px
+
+
+// удалить когда все наладится
+
+.feauteres__mobile
+  @media #{$tablet}
+    display: none
+
+.feauteres__tablet
+  display: none
+
+  @media #{$tablet}
+    display: flex
+    justify-content: space-between
+
+.feauteres__column-info,
+.feauteres__column-img
+  width: 50%
+
+.feauteres__column-img picture
+  line-height: 0
+
+.feauteres__column-info
+  padding-right: 40px
+  display: flex
+  flex-wrap: wrap
+  flex-direction: column
+  justify-content: space-between
+
+  & > *
+    width: 100%
