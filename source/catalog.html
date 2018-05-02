@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Мишка - Каталог</title>
+    <meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="no-js">
+    <header class="page-header page-header--menu-open">
+      <nav class="main-nav">
+        <li class="main-nav__item main-nav__item--catalog">
+          <a class="main-nav__link">Каталог товаров</a>
+        </li>
+        <li class="main-nav__item main-nav__item--for-order">
+          <a href="form.html" class="main-nav__link">Вязание на заказ</a>
+        </li>
+        <li class="main-nav__item main-nav__item--search">
+          <a href="#" class="main-nav__link main-nav__search">Поиск по сайту</a>
+        </li>
+        <li class="main-nav__item main-nav__item--cart">
+          <a href="#" class="main-nav__link main-nav__cart">Корзина: пока пуста</a>
+        </li>
+      </nav>
+      <div class="page-header__logo">
+        <a href="index.html">
+          <picture>
+            <source media="(min-width: 768px)"
+                    srcset="img/logo-tablet.svg">
+            <source media="(min-width: 1200px)"
+                    srcset="img/logo-desktop.svg">
+            <img src="img/logo-mobile.svg" alt="логотип мобильный">
+          </picture>
+        </a>
+      </div>
+      <button class="page-header__toggle" type="button">Открыть меню</button>
+      <div class="page-header__delivery">Бесплатная доставка по России</div>
+    </header>
+
+    <main class="page-main">
+      <section class="promo promo--inner">
+        <h1>Каталог товаров</h1>
+      </section>
+      <section class="catalog">
+        <article class="catalog__item">
+          <div class="catalog__img">
+            <a href="#" class="catalog__link">
+              <picture>
+                <source media="(min-width: 768px)"
+                        srcset="img/photo-1-tablet@1x.jpg">
+                <source media="(min-width: 1200px)"
+                        srcset="img/photo-1-desktop@1x.jpg">
+                <img src="img/photo-1-mobile@1x.jpg" srcset="img/photo-1-mobile@2x.jpg" alt="catalog item" width="260" height="195">
+              </picture>
+            </a>
+          </div>
+          <div class="catalog__info">
+            <div class="catalog__desc">
+              <h3 class="catalog__title">
+                <a href="#">Зайчик-попрыгайчик</a>
+              </h3>
+              <p>
+                Рост 30 см, вес 200 г
+              </p>
+            </div>
+            <div class="catalog__price">
+              <span>
+                1 200 руб.
+              </span>
+              <a href="#" class="catalog__cart">
+                Корзина
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="catalog__item">
+          <div class="catalog__img">
+            <a href="#" class="catalog__link">
+              <img src="img/photo-2-mobile@1x.jpg" alt="catalog item" width="260" height="195">
+            </a>
+          </div>
+          <div class="catalog__info">
+            <div class="catalog__desc">
+              <h3 class="catalog__title">
+                <a href="#">Корзинка для белья</a>
+              </h3>
+              <p>
+                Диаметр 15 см, высота 10 см
+              </p>
+            </div>
+            <div class="catalog__price">
+              <span>
+                690 руб.
+              </span>
+              <a href="#" class="catalog__cart">
+                Корзина
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="catalog__item">
+          <div class="catalog__img">
+            <a href="#" class="catalog__link">
+              <img src="img/photo-3-mobile@1x.jpg" alt="catalog item" width="260" height="195">
+            </a>
+          </div>
+          <div class="catalog__info">
+            <div class="catalog__desc">
+              <h3 class="catalog__title">
+                <a href="#">Большая корзина для игрушек</a>
+              </h3>
+              <p>
+                Диаметр 30 см, высота 30 см
+              </p>
+            </div>
+            <div class="catalog__price">
+              <span>
+                1 500 руб.
+              </span>
+              <a href="#" class="catalog__cart">
+                Корзина
+              </a>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="video">
+        <h2>Процесс производства</h2>
+        <div class="video__player">
+          <picture>
+            <source media="(min-width: 768px)"
+                    srcset="img/video-tablet@1x.jpg">
+            <source media="(min-width: 1200px)"
+                    srcset="img/video-desktop@1x.jpg">
+            <img src="img/video-mobile@1x.jpg" alt="video prod" width="260" height="150">
+          </picture>
+          <a class="video__control">
+            <img src="img/icon-play.svg" alt="video control">
+          </a>
+        </div>
+        <div class="video__desc">
+          <p>По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+          <a href="#" class="video__btn btn">Сделать заказ</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <a href="#" class="page-footer__link-logo">
+        <picture>
+          <source media="(min-width: 768px)"
+                  srcset="img/logo-tablet.svg">
+          <source media="(min-width: 1200px)"
+                  srcset="img/logo-desktop.svg">
+          <img src="img/logo-mobile.svg" alt="логотип мобильный">
+        </picture>
+      </a>
+      <div class="page-footer__social social">
+        <a href="#" class="social__btn  social__btn--insta">
+        </a>
+        <a href="#" class="social__btn  social__btn--facebook">
+        </a>
+        <a href="#" class="social__btn  social__btn--twitter">
+        </a>
+      </div>
+      <div class="page-footer__logo">
+        <p class="page-footer__copyright">Разработано</p>
+        <a class="page-footer__logo-img" href="#"></a>
+      </div>
+    </footer>
+
+    <div class="modal">
+      <div class="modal__content">
+        <h2>Добавить в корзину</h2>
+        <p>Выберите размер:</p>
+        <div class="modal__size">
+          <a href="#" class="modal__btn modal__btn--current">S</a>
+          <a href="#" class="modal__btn">M</a>
+          <a href="#" class="modal__btn">L</a>
+        </div>
+        <a href="#" class="modal__size-btn btn">Добавить</a>
+      </div>
+    </div>
+
+  </body>
+</html>
