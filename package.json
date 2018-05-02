@@ -19,5 +19,8 @@
   ],
   "engines": {
     "node": "8.11"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
   }
 }
