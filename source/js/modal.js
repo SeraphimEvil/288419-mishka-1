@@ -22,7 +22,7 @@
 
   var buttonOrder = document.querySelectorAll('.js-button-order');
   var modal = document.querySelector('.order-size');
-  
+
   for (var i = 0; i < buttonOrder.length; i++) {
     buttonOrder[i].addEventListener('click', function () {
       event.preventDefault();
