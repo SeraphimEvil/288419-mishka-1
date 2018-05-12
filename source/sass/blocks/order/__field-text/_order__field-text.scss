@@ -49,6 +49,7 @@
 
   .order__field-text {
     padding-bottom: 17px;
+    flex-grow: 1;
   }
 
   .order__field-text--phone {
@@ -73,6 +74,10 @@
 }
 
 @media (min-width: 1150px) {
+  .order__field-text {
+    flex-grow: 0;
+  }
+
   .order__field-text--phone,
   .order__field-text--email {
     width: 675px;

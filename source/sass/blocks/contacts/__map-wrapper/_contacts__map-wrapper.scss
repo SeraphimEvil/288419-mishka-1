@@ -3,14 +3,23 @@
   margin-top: 7px;
 }
 
-.contacts__map-wrapper::after {
-  content: "";
-  position: absolute;
-  width: 66px;
-  height: 101px;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background-image: url("../img/icon-map-pin.svg");
-  background-repeat: no-repeat;
+.contacts__map-wrapper iframe {
+  width: 100%;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .contacts__map-wrapper iframe {
+    width: 768px;
+    height: 457px;
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .contacts__map-wrapper iframe {
+    width: 525px;
+    height: 460px;
+    margin-top: 80px;
+  }
 }

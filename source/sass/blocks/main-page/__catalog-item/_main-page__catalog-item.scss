@@ -1,14 +1,18 @@
 .main-page__catalog-item {
   @include font-params(19px, 1.26, bold);
   position: relative;
-  padding-top: 26px;
-  padding-bottom: 30px;
+  //padding-top: 26px;
+  //padding-bottom: 30px;
   transition: 300ms ease-out;
 
   a {
     display: block;
-    padding: 0 30px;
+    padding: 26px 30px 30px;
     color: $color-white;
+  }
+
+  a::after {
+    transition: 300ms ease-out;
   }
 
   &--accessory {
@@ -25,12 +29,6 @@
     background-image: url("../img/icon-interior.svg");
     background-repeat: no-repeat;
     opacity: 0.5;
-  }
-
-  &--accessory:hover {
-    margin-top: -5px;
-    padding-bottom: 35px;
-    background-color: $color-light-turquoise2;
   }
 
   &--accessory:hover a::after,
@@ -63,12 +61,6 @@
     background-repeat: no-repeat;
     opacity: 0.5;
   }
-
-  &--toys:hover {
-    margin-top: -5px;
-    padding-bottom: 35px;
-    background-color: $color-dark-turquoise2;
-  }
 }
 
 @media (min-width: 768px) {
@@ -99,7 +91,7 @@
 
     a {
       margin: 0;
-      padding: 0 30px;
+      padding: 26px 30px 30px;
     }
 
     &--toys {
