@@ -1,0 +1,27 @@
+.about-us__item {
+  @include font-params(17px, 1.17, bold);
+  padding-top: 85px;
+
+  &--icon-1,
+  &--icon-2,
+  &--icon-3,
+  &--icon-4,
+  &--icon-5,
+  &--icon-6 {
+    position: relative;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-us__item {
+    @include font-params(20px, 1.1, bold);
+    width: 334px;
+    padding-bottom: 25px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .about-us__item {
+    width: 350px;
+  }
+}

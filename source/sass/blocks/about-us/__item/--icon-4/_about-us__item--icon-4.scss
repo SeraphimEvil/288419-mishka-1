@@ -1,0 +1,10 @@
+.about-us__item--icon-4::before {
+  content: "";
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  left: 0;
+  top: 35px;
+  background-image: url("../img/icon-feature-ball.svg");
+  background-repeat: no-repeat;
+}

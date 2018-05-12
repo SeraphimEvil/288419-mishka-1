@@ -1,0 +1,27 @@
+.order__field-radio {
+  display: none;
+}
+
+.order__field-radio:checked + .order__field-label--radio::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 2px;
+  left: 12px;
+  background-color: $color-light-turquoise;
+  border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+  .order__field-radio:checked + .order__field-label--radio::after {
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 16px;
+  }
+}
+
+@media (min-width: 1150px) {
+
+}

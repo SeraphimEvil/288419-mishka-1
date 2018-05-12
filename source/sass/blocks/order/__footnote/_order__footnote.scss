@@ -1,0 +1,19 @@
+.order__footnote {
+  @include reset-indents();
+  @include font-params(14px, 1.14);
+}
+
+@media (min-width: 768px) {
+  .order__footnote {
+    @include font-params(17px, 1.76);
+    padding-left: 136px;
+    padding-top: 8px;
+    order: 1;
+  }
+}
+
+@media (min-width: 1150px) {
+  .order__footnote {
+    padding-left: 170px;
+  }
+}

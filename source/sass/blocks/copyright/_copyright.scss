@@ -1,0 +1,10 @@
+.copyright {
+  margin: 0 30px;
+  padding: 20px 0;
+}
+
+@media (min-width: 768px) {
+  .copyright {
+    @include reset-indents();
+  }
+}

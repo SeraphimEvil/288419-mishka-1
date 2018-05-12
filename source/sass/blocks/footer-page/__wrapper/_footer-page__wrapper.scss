@@ -1,0 +1,23 @@
+.footer-page__wrapper {
+  @include container(260px);
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+  background-color: $color-light-grey;
+}
+
+@media (min-width: 768px) {
+  .footer-page__wrapper {
+    @include container(668px);
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .footer-page__wrapper {
+    @include container(1050px);
+    padding: 50px 100px;
+  }
+}

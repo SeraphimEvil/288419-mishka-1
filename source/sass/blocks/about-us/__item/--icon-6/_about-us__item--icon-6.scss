@@ -1,0 +1,10 @@
+.about-us__item--icon-6::before {
+  content: "";
+  position: absolute;
+  width: 32px;
+  height: 37px;
+  left: 0;
+  top: 30px;
+  background-image: url("../img/icon-feature-gift.svg");
+  background-repeat: no-repeat;
+}

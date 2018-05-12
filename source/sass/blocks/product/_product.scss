@@ -1,0 +1,30 @@
+.product {
+  @include container(260px);
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+  background-image: url("../img/bg-zigzag-line.svg");
+  background-repeat: repeat-x;
+  background-position: left bottom;
+  background-size: auto 7px;
+}
+
+@media (min-width: 768px) {
+  .product {
+    @include container(668px);
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 50px 60px;
+    background-size: auto 15px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .product {
+    @include container(1050px);
+    justify-content: flex-start;
+    padding: 0 100px;
+    background-size: auto 20px;
+  }
+}

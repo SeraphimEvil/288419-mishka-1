@@ -1,0 +1,12 @@
+.catalog__product-text {
+  @include reset-indents();
+  @include font-params(13px, 2.3, normal);
+  margin-top: 7px;
+}
+
+@media (min-width: 768px) {
+  .catalog__product-text {
+    @include font-params(15px, 2);
+    margin-top: 3px;
+  }
+}

@@ -1,0 +1,22 @@
+.copyright__link {
+  display: flex;
+  align-items: center;
+
+  svg {
+    transition: 300ms ease-out;
+  }
+}
+
+.copyright__link:hover {
+  svg {
+    fill: $color-dark-turquoise2;
+  }
+}
+
+.copyright__link:active {
+  color: rgba(0, 0, 0, 0.3);
+
+  svg {
+    opacity: 0.3;
+  }
+}

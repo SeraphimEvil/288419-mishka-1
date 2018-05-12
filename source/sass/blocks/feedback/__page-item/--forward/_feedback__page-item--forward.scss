@@ -1,0 +1,10 @@
+.feedback__page-item--forward::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 26px;
+  left: calc(50% - 25px);
+  top: 12px;
+  background-image: url("../img/icon-right-arrow.svg");
+  background-repeat: no-repeat;
+}

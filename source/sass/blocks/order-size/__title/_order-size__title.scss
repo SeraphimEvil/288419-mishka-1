@@ -1,0 +1,16 @@
+.order-size__title {
+  @include font-params(25px, 1.2, bold);
+  margin-top: 30px;
+  margin-bottom: 0;
+  padding: 0 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .order-size__title {
+    @include font-params(30px, 1.9, bold);
+    padding: 0;
+    text-align: center;
+  }
+}

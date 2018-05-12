@@ -1,0 +1,23 @@
+.catalog__button-order {
+  position: relative;
+}
+
+.catalog__button-order svg {
+  position: absolute;
+  top: 0;
+  left: -15px;
+  opacity: 0.2;
+}
+
+.catalog__button-order:hover svg {
+  fill: $color-light-turquoise;
+  opacity: 1;
+}
+
+.catalog__button-order:active svg {
+  opacity: 0.3;
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1150px) {}

@@ -1,0 +1,17 @@
+.header-page {
+  @include container(320px);
+}
+
+@media (min-width: 768px) {
+  .header-page {
+    width: 668px;
+    padding: 0 50px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .header-page {
+    width: 1050px;
+    padding: 0 100px;
+  }
+}

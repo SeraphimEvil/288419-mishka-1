@@ -1,0 +1,24 @@
+.contacts__map-wrapper {
+  position: relative;
+  margin-top: 7px;
+}
+
+.contacts__map-wrapper::after {
+  content: "";
+  position: absolute;
+  width: 66px;
+  height: 101px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("../img/icon-map-pin.svg");
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1150px) {
+
+}

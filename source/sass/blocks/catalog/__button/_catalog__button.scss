@@ -1,0 +1,17 @@
+.catalog__button {
+  width: 190px;
+  margin-top: 25px;
+}
+
+@media (min-width: 768px) {
+  .catalog__button {
+    width: auto;
+    margin-top: 35px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .catalog__button {
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,10 @@
+.catalog__product-price {
+  @include reset-indents();
+  @include font-params(15px, 1.6, bold);
+}
+
+@media (min-width: 768px) {
+  .catalog__product-price {
+    @include font-params(17px, 1.4, bold);
+  }
+}

@@ -1,0 +1,25 @@
+.main-menu__list3 {
+  display: none;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1150px) {
+  .main-menu__list3 {
+    @include reset-indents();
+    @include list-base-style();
+    @include font-params(15px, 1.6, bold);
+    display: flex;
+    order: 1;
+  }
+
+  .main-menu__list3 li {
+    padding-top: 15px;
+    padding-bottom: 12px;
+    padding-right: 60px;
+    padding-left: 0;
+    border-bottom: none;
+  }
+}

@@ -1,0 +1,37 @@
+.main-menu__list {
+  @include reset-indents();
+  @include list-base-style();
+  @include font-params(17px, 1.4, bold);
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .main-menu__list {
+    @include font-params(15px, 1.6, bold);
+    display: flex;
+    order: 1;
+    flex-direction: row;
+  }
+
+  .main-menu__list li {
+    padding-left: 0;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: none;
+  }
+}
+
+@media (min-width: 1150px) {
+  .main-menu__list {
+    @include font-params(17px, 1.4, bold);
+    width: 378px;
+    order: -2;
+  }
+
+  .main-menu__list li {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+}

@@ -1,0 +1,10 @@
+.product__description {
+  @include reset-indents();
+  @include font-params(15px, 1.6);
+}
+
+@media (min-width: 768px) {
+  .product__description {
+    @include font-params(17px, 1.76);
+  }
+}

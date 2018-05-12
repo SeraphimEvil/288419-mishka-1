@@ -1,0 +1,29 @@
+.order__field-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.order__field-wrapper--color {
+  margin-bottom: 44px;
+}
+
+.order__field-wrapper--color:nth-last-of-type(1) {
+  margin-bottom: 22px;
+}
+
+@media (min-width: 768px) {
+  .order__field-wrapper {
+    margin-bottom: 58px;
+  }
+
+  .order__field-wrapper--color {
+    width: 250px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .order__field-wrapper--color {
+    width: 260px;
+  }
+}

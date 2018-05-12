@@ -1,0 +1,12 @@
+.contacts__table-row {
+  @include reset-indents();
+  @include list-base-style();
+  display: flex;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .contacts__table-row:first-child {
+    padding-right: 50px;
+  }
+}

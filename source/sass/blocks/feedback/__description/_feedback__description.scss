@@ -1,0 +1,9 @@
+.feedback__description {
+  @include reset-indents();
+}
+
+@media (min-width: 768px) {
+  .feedback__description {
+    @include font-params(17px, 1.76);
+  }
+}

@@ -1,0 +1,36 @@
+.order__title {
+  @include reset-indents();
+  @include font-params(17px, 1, bold);
+  position: relative;
+  text-transform: uppercase;
+  color: $color-light-turquoise;
+}
+
+.order__title::after {
+  content: "";
+  position: absolute;
+  width: 195px;
+  height: 1px;
+  top: 7px;
+  left: 65px;
+  background-color: $color-light-turquoise;
+}
+
+@media (min-width: 768px) {
+  .order__title {
+    width: 166px;
+    padding-top: 75px;
+  }
+
+  .order__title::after {
+    display: none;
+  }
+}
+
+@media (min-width: 1150px) {
+  .order__title {
+    box-sizing: border-box;
+    width: 175px;
+    padding-left: 65px;
+  }
+}

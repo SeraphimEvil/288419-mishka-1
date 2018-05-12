@@ -1,0 +1,17 @@
+.order__button {
+  margin-top: 30px;
+  background-color: $color-white;
+}
+
+@media (min-width: 768px) {
+  .order__button {
+    width: 230px;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1150px) {
+  .order__button {
+    margin-left: 175px;
+  }
+}

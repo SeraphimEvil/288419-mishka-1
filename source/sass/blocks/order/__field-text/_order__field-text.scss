@@ -1,0 +1,85 @@
+.order__field-text::placeholder {
+  @include font-params(17px, 1.05);
+  opacity: 0.3;
+}
+
+.order__field-text {
+  @include reset-indents();
+  padding-top: 15px;
+  padding-bottom: 15px;
+  min-width: 260px;
+  border: none;
+  border-bottom: 2px solid $color-black;
+}
+
+.order__field-text--phone {
+  padding-top: 25px;
+}
+
+.order__field-text--email {
+  padding-top: 25px;
+}
+
+.order__field-text--textarea {
+  box-sizing: border-box;
+  min-height: 140px;
+  margin-top: 22px;
+  padding-left: 15px;
+  border: 2px solid $color-black;
+}
+
+.order__field-text:focus {
+  border-bottom: 2px solid $color-light-turquoise;
+  outline: none;
+}
+
+.order__field-text:focus + svg {
+  fill: $color-turquoise2;
+  opacity: 1;
+}
+
+.order__field-text--textarea:focus {
+  border: 2px solid $color-light-turquoise;
+}
+
+@media (min-width: 768px) {
+  .order__field-text::placeholder {
+    @include font-params(19px, 1.05);
+  }
+
+  .order__field-text {
+    padding-bottom: 17px;
+  }
+
+  .order__field-text--phone {
+    width: 500px;
+    padding-top: 75px;
+    padding-left: 20px;
+    background-color: $color-light-grey;
+    border-bottom: 2px solid $color-black;
+  }
+
+  .order__field-text--email {
+    width: 500px;
+    padding-top: 42px;
+    padding-left: 20px;
+    background-color: $color-light-grey;
+  }
+
+  .order__field-text--textarea {
+    width: 500px;
+    margin-top: 52px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .order__field-text--phone,
+  .order__field-text--email {
+    width: 675px;
+  }
+
+  .order__field-text--textarea {
+    width: 700px;
+  }
+}
+

@@ -1,0 +1,11 @@
+.product__price {
+  @include font-params(17px, 1.4, bold);
+  padding-left: 65px;
+}
+
+@media (min-width: 768px) {
+  .product__price {
+    @include font-params(20px, 1.2, bold);
+    padding-left: 70px;
+  }
+}

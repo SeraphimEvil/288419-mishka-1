@@ -1,0 +1,13 @@
+.main-page__title-wrapper {
+  background-color: $color-light-grey2;
+}
+
+@media (min-width: 768px) {
+  .main-page__title-wrapper {
+    margin-top: -54px;
+    background-image: url("../img/bg-zigzag-fill.svg");
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-size: auto 20px;
+  }
+}

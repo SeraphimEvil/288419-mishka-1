@@ -1,0 +1,12 @@
+.catalog__production-text {
+  @include reset-indents();
+  @include font-params(13px, 1.86);
+  width: 190px;
+}
+
+@media (min-width: 768px) {
+  .catalog__production-text {
+    @include font-params(15px, 2);
+    width: auto;
+  }
+}

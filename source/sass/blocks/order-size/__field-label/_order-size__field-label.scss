@@ -1,0 +1,25 @@
+.order-size__field-label {
+  @include font-params(17px, 1, bold);
+  box-sizing: border-box;
+  display: block;
+  padding: 15px 0;
+  width: 80px;
+  height: 50px;
+  border: 1px solid $color-grey;
+  background-color: $color-white;
+  text-align: center;
+}
+
+.order-size__field-label:hover {
+  border: 2px solid $color-grey;
+}
+
+.order-size__field-label:active {
+  border: 2px solid $color-light-turquoise;
+}
+
+@media (min-width: 768px) {
+  .order-size__field-label {
+    width: 112px;
+  }
+}

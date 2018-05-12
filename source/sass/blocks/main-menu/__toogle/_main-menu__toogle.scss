@@ -1,0 +1,16 @@
+.main-menu__toogle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 30px;
+  top: 30px;
+  border: none;
+  background-color: $color-white;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .main-menu__toogle {
+    display: none;
+  }
+}

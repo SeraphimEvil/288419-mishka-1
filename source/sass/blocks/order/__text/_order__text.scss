@@ -1,0 +1,20 @@
+.order__text {
+  @include reset-indents();
+  @include font-params(13px, 1.84);
+}
+
+@media (min-width: 768px) {
+  .order__text {
+    @include container(668px);
+    @include font-params(17px, 1.76);
+    padding: 0 50px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .order__text {
+    @include container(700px);
+    padding: 0 275px;
+  }
+}
+

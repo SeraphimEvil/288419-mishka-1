@@ -1,0 +1,19 @@
+.feedback__title {
+  @include reset-indents();
+  @include font-params(25px, 1.2, bold);
+  margin-top: 25px;
+}
+
+@media (min-width: 768px) {
+  .feedback__title {
+    @include font-params(43px, 1.16, bold);
+    margin-top: 135px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .feedback__title {
+    @include font-params(53px, 1.07, bold);
+    margin-top: 135px;
+  }
+}

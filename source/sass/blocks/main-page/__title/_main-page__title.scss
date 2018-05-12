@@ -1,0 +1,92 @@
+.main-page__title {
+  @include container(260px);
+  padding: 0 30px;
+  background-color: $color-light-grey2;
+
+  h1 {
+    @include reset-indents();
+    @include font-params(27px, 1.1, bold);
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-page__title {
+    @include container(668px);
+    padding: 0 50px;
+    background: none;
+
+    h1 {
+      @include font-params(43px, 1.16, bold);
+    }
+  }
+
+  .main-page__title--index-page {
+    min-height: 625px;
+    background: url("../img/hero-tablet@1x.jpg");
+    background-position: 50% -20px;
+
+    h1 {
+      padding-top: 150px;
+    }
+  }
+
+  .main-page__title--inner-page {
+    min-height: 225px;
+
+    h1 {
+      padding-top: 95px;
+    }
+  }
+}
+
+@media (min-width: 1150px) {
+  .main-page__title {
+    @include container(1050px);
+    padding: 0 100px;
+
+    h1 {
+      @include font-params(53px, 1.07, bold);
+    }
+
+    &--index-page {
+      h1 {
+        padding-top: 150px;
+        background: url("../img/hero-desktop@1x.jpg");
+        background-position: 50% -20px;
+      }
+    }
+
+    &--inner-page {
+      min-height: 250px;
+
+      h1 {
+        padding-top: 90px;
+      }
+    }
+  }
+}
+
+//*ретина мобильная версия---------------------------------
+@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .main-page__title--index-page {
+    background-image: url("../img/hero-mobile@2x.jpg");
+    background-size: 575px auto;
+  }
+}
+
+//*ретина планшетная версия---------------------------------
+@media (min-width: 768px) and (min-resolution: 144dpi), (min-width: 768px) and (min-resolution: 1.5dppx) {
+  .main-page__title--index-page {
+    background-image: url("../img/hero-tablet@2x.jpg");
+    background-size: 1150px auto;
+  }
+}
+
+//*ретина десктопная версия---------------------------------
+@media (min-width: 1150px) and (min-resolution: 144dpi), (min-width: 1150px) and (min-resolution: 1.5dppx) {
+  .main-page__title--index-page {
+    background-image: url("../img/hero-desktop@2x.jpg");
+    background-size: 1150px auto;
+  }
+}

@@ -1,0 +1,11 @@
+.order-size__button {
+  margin-top: 35px;
+  margin-bottom: 45px;
+}
+
+@media (min-width: 768px) {
+  .order-size__button {
+    width: 352px;
+    margin-top: 32px;
+  }
+}

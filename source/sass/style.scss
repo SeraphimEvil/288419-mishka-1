@@ -8,23 +8,24 @@
 @import "fonts";
 // global
 @import "global";
-// main-blocks
-@import "blocks/page-main";
 // blocks
-@import "blocks/promo";
-@import "blocks/feauteres";
-@import "blocks/page-header";
-@import "blocks/main-nav";
-@import "blocks/btn";
-@import "blocks/about-us";
-@import "blocks/feedback";
-@import "blocks/contact";
-@import "blocks/map";
-@import "blocks/page-footer";
-@import "blocks/social";
-@import "blocks/modal";
-@import "blocks/catalog";
-@import "blocks/video";
-@import "blocks/slogan";
-@import "blocks/form";
-@import "blocks/field";
+// shared blocks
+@import "blocks/button/index";
+@import "blocks/header-page/index";
+@import "blocks/main-menu/index";
+@import "blocks/footer-page/index";
+@import "blocks/copyright/index";
+@import "blocks/about-us/index";
+@import "blocks/contacts/index";
+@import "blocks/feedback/index";
+@import "blocks/main-page/index";
+@import "blocks/modal/index";
+@import "blocks/product/index";
+@import "blocks/social/index";
+
+// catalog blocks
+@import "blocks/catalog/index";
+
+// order blocks
+@import "blocks/order/index";
+@import "blocks/order-size/index";

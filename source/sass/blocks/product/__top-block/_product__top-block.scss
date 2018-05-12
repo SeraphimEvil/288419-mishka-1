@@ -1,0 +1,13 @@
+.product__top-block {
+  display: flex;
+  flex-direction: column;
+  margin-top: 23px;
+}
+
+@media (min-width: 768px) {
+  .product__top-block {
+    width: 300px;
+    margin-top: 45px;
+    padding-bottom: 65px;
+  }
+}

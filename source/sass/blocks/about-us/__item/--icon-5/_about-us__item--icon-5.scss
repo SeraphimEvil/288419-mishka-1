@@ -1,0 +1,10 @@
+.about-us__item--icon-5::before {
+  content: "";
+  position: absolute;
+  width: 54px;
+  height: 23px;
+  left: 0;
+  top: 35px;
+  background-image: url("../img/icon-feature-rocket.svg");
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,10 @@
+.about-us__item--icon-3::before {
+  content: "";
+  position: absolute;
+  width: 33px;
+  height: 28px;
+  left: 0;
+  top: 35px;
+  background-image: url("../img/icon-feature-heart.svg");
+  background-repeat: no-repeat;
+}
