@@ -1,0 +1,16 @@
+.main-menu__link:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.main-menu__link:hover .main-menu__icon {
+  fill: $color-light-turquoise;
+  opacity: 1;
+}
+
+.main-menu__link:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.main-menu__link:active .main-menu__icon {
+  opacity: 0.3;
+}

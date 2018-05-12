@@ -1,0 +1,27 @@
+.catalog__production-description {
+  @include reset-indents();
+  @include container(200px);
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px 25px;
+}
+
+@media (min-width: 768px) {
+  .catalog__production-description {
+    @include container(588px);
+    margin-top: 30px;
+    padding: 0 40px;
+    padding-bottom: 45px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .catalog__production-description {
+    box-sizing: border-box;
+    width: 1050px;
+    margin-left: 0;
+    padding-left: 760px;
+    padding-right: 60px;
+    padding-bottom: 55px;
+  }
+}

@@ -1,0 +1,24 @@
+.order__field-checkbox {
+  display: none;
+}
+
+.order__field-checkbox:checked + .order__field-label--checkbox::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  left: 10px;
+  background-image: url("../img/icon-tick.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .order__field-checkbox:checked + .order__field-label--checkbox::after {
+    width: 35px;
+    height: 30px;
+    top: 0;
+    left: 10px;
+  }
+}

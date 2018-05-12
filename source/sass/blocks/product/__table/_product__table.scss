@@ -1,0 +1,37 @@
+.product__table {
+  @include font-params(15px, 1.33);
+  margin-top: 16px;
+  border-collapse: collapse;
+}
+
+.product__table th {
+  @include bottom-border-grey();
+  font-weight: normal;
+  padding: 10px 0;
+  text-align: left;
+}
+
+.product__table td {
+  @include bottom-border-grey();
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: normal;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .product__table {
+    margin-top: 38px;
+  }
+
+  .product__table td {
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 1150px) {
+  .product__table {
+    margin-top: 53px;
+  }
+}

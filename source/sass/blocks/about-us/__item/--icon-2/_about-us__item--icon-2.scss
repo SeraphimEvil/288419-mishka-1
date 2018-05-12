@@ -1,0 +1,10 @@
+.about-us__item--icon-2::before {
+  content: "";
+  position: absolute;
+  width: 47px;
+  height: 27px;
+  left: 0;
+  top: 35px;
+  background-image: url("../img/icon-feature-money.svg");
+  background-repeat: no-repeat;
+}

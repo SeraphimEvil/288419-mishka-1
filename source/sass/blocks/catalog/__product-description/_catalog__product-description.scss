@@ -1,0 +1,24 @@
+.catalog__product-description {
+  @include container(200px);
+  display: flex;
+  flex-direction: column;
+  padding: 28px 29px 25px;
+  transition: 300ms ease-out;
+}
+
+@media (min-width: 768px) {
+  .catalog__product-description {
+    @include container(284px);
+    margin-top: 0;
+    padding: 0 25px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .catalog__product-description {
+    @include container(268px);
+    margin: 0;
+    padding: 0 24px;
+    padding-bottom: 20px;
+  }
+}

@@ -1,0 +1,22 @@
+.product__title {
+  @include reset-indents();
+  @include font-params(25px, 1.2, bold);
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .product__title {
+    @include font-params(43px, 1.16, bold);
+    width: 500px;
+    margin-top: 48px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .product__title {
+    @include font-params(53px, 1.07, bold);
+    width: 530px;
+    margin-top: 125px;
+    z-index: 10;
+  }
+}

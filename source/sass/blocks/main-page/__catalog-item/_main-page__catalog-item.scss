@@ -1,0 +1,101 @@
+.main-page__catalog-item {
+  @include font-params(19px, 1.26, bold);
+  position: relative;
+  //padding-top: 26px;
+  //padding-bottom: 30px;
+  transition: 300ms ease-out;
+
+  a {
+    display: block;
+    padding: 26px 30px 30px;
+    color: $color-white;
+  }
+
+  a::after {
+    transition: 300ms ease-out;
+  }
+
+  &--accessory {
+    background-color: $color-light-turquoise;
+  }
+
+  &--accessory a::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 62px;
+    right: 35px;
+    top: calc(50% - 31px);
+    background-image: url("../img/icon-interior.svg");
+    background-repeat: no-repeat;
+    opacity: 0.5;
+  }
+
+  &--accessory:hover a::after,
+  &--toys:hover a::after {
+    opacity: 1;
+  }
+
+  &--accessory:active a,
+  &--toys:active a {
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  &--accessory:active a::after,
+  &--toys:active a::after {
+    opacity: 0.3;
+  }
+
+  &--toys {
+    background-color: $color-dark-turquoise;
+  }
+
+  &--toys a::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    right: 30px;
+    top: calc(50% - 30px);
+    background-image: url("../img/icon-toy.svg");
+    background-repeat: no-repeat;
+    opacity: 0.5;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-page__catalog-item {
+    @include font-params(20px, 1.5, bold);
+    width: 334px;
+    padding-left: 5px;
+
+    &--accessory {
+      background-image: url("../img/bg-zigzag-fill.svg");
+      background-repeat: repeat-x;
+      background-position: left bottom;
+      background-size: auto 20px;
+    }
+
+    &--toys {
+      background-image: url("../img/bg-zigzag-fill.svg");
+      background-repeat: repeat-x;
+      background-position: 5px bottom;
+      background-size: auto 20px;
+    }
+  }
+}
+
+@media (min-width: 1150px) {
+  .main-page__catalog-item {
+    width: 525px;
+
+    a {
+      margin: 0;
+      padding: 26px 30px 30px;
+    }
+
+    &--toys {
+      background-position: 15px bottom;
+    }
+  }
+}

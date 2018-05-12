@@ -1,0 +1,12 @@
+.contacts__mail-link {
+  border-bottom: 1px solid $color-dark-turquoise2;
+  transition: 300ms ease-out;
+}
+
+.contacts__mail-link:hover {
+  color: $color-dark-turquoise2;
+}
+
+.contacts__mail-link:active {
+  opacity: 0.3;
+}

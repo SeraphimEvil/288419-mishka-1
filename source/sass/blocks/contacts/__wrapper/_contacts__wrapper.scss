@@ -1,0 +1,19 @@
+.contacts__wrapper {
+  margin-top: 36px;
+  padding: 0 30px;
+}
+
+@media (min-width: 768px) {
+  .contacts__wrapper {
+    margin-top: 65px;
+    padding: 0 50px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .contacts__wrapper {
+    @include reset-indents();
+    width: 350px;
+    padding-bottom: 105px;
+  }
+}

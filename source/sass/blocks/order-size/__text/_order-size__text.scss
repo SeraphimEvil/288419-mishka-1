@@ -1,0 +1,12 @@
+.order-size__text {
+  @include reset-indents();
+  margin-top: 12px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .order-size__text {
+    @include font-params(17px, 1.76);
+    margin-top: 15px;
+  }
+}

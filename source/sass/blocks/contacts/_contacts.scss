@@ -1,0 +1,27 @@
+.contacts {
+  @include container(320px);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .contacts {
+    @include container(768px);
+    padding-bottom: 55px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .contacts {
+    @include container(875px);
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    padding-left: 275px;
+    padding-right: 100px;
+    padding-bottom: 0;
+  }
+}

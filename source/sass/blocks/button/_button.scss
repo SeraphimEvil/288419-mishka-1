@@ -1,0 +1,21 @@
+.button {
+  @include font-params(17px, 1.17, bold);
+  box-sizing: border-box;
+  width: 260px;
+  min-height: 46px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid $color-black;
+  transition: 300ms ease-out;
+}
+
+.button:hover {
+  color: $color-white;
+  background-color: $color-dark-grey;
+}
+
+.button:active {
+  color: rgba(255, 255, 255, 0.3);
+}

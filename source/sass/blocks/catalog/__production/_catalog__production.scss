@@ -1,0 +1,21 @@
+.catalog__production {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $color-light-grey;
+}
+
+.catalog__production:hover .catalog__production-description {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.catalog__production:active .catalog__production-description {
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 1150px) {
+  .catalog__production {
+    position: relative;
+    min-height: 450px;
+    padding-bottom: 0;
+  }
+}

@@ -1,0 +1,21 @@
+.contacts__table {
+  display: flex;
+  flex-direction: column;
+  margin-top: 27px;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+@media (min-width: 768px) {
+  .contacts__table {
+    @include font-params(17px, 1.76);
+    flex-direction: row;
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .contacts__table {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,23 @@
+.product__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .product__wrapper {
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 668px;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 1150px) {
+  .product__wrapper {
+    width: 875px;
+    padding-left: 175px;
+    padding-bottom: 85px;
+  }
+}

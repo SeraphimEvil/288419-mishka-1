@@ -1,0 +1,25 @@
+.main-menu__logo {
+  @include bottom-border-grey();
+  padding-top: 20px;
+  padding-bottom: 13px;
+  text-align: center;
+  transition: 300ms ease-out;
+}
+
+.main-menu__logo:hover {
+  opacity: 0.6;
+}
+
+.main-menu__logo:active {
+  opacity: 0.3;
+}
+
+@media (min-width: 768px) {
+  .main-menu__logo {
+    width: 120px;
+    padding: 0;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    border: none;
+  }
+}

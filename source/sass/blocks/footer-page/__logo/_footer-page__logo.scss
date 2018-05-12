@@ -1,0 +1,17 @@
+.footer-page__logo {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .footer-page__logo {
+    display: block;
+  }
+
+  .footer-page__logo:hover {
+    fill: $color-dark-turquoise2;
+  }
+
+  .footer-page__logo:active {
+    opacity: 0.3;
+  }
+}

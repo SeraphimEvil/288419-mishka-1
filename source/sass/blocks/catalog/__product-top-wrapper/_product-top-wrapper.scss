@@ -1,0 +1,23 @@
+.catalog__product-top-wrapper {
+  @include bottom-border-grey();
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .catalog__product-top-wrapper {
+    min-height: 230px;
+    padding-top: 20px;
+    padding-right: 50px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .catalog__product-top-wrapper {
+    min-height: 100px;
+    margin-bottom: 17px;
+    padding-right: 0;
+    padding-top: 23px;
+  }
+}

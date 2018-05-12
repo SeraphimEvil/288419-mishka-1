@@ -1,0 +1,21 @@
+.product__bottom-block {
+  display: flex;
+  flex-direction: column;
+  margin-top: 23px;
+}
+
+@media (min-width: 768px) {
+  .product__bottom-block {
+    position: absolute;
+    width: 300px;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@media (min-width: 1150px) {
+  .product__bottom-block {
+    bottom: 82px;
+    left: 178px;
+  }
+}

@@ -1,0 +1,11 @@
+.feedback__content {
+  @include reset-indents();
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .feedback__content {
+    margin-top: 45px;
+    order: 1;
+  }
+}

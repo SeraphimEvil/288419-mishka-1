@@ -1,0 +1,23 @@
+.feedback__paginator {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 33px;
+}
+
+@media (min-width: 768px) {
+  .feedback__paginator {
+    position: absolute;
+    bottom: 130px;
+    right: 50px;
+    justify-content: center;
+    order: 2;
+    border: none;
+  }
+}
+
+@media (min-width: 1150px) {
+  .feedback__paginator {
+    bottom: 180px;
+    right: 100px;
+  }
+}

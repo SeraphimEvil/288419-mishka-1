@@ -1,0 +1,25 @@
+.catalog {
+  @include container(260px);
+  margin-bottom: 65px;
+  padding: 27px 30px 0;
+}
+
+@media (min-width: 768px) {
+  .catalog {
+    @include container(668px);
+    padding: 80px 50px 0;
+    margin-bottom: 65px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .catalog {
+    @include container(1050px);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 130px;
+    margin-bottom: 105px;
+    padding: 0 100px;
+  }
+}

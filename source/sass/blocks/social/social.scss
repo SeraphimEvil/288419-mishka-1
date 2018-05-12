@@ -1,0 +1,16 @@
+.social {
+  @include reset-indents();
+  @include list-base-style();
+  @include bottom-border-grey();
+  display: flex;
+  align-items: center;
+  margin: 0 30px;
+  padding: 24px 0;
+}
+
+@media (min-width: 768px) {
+  .social {
+    @include reset-indents();
+    margin-left: 60px;
+  }
+}

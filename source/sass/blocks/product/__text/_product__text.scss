@@ -1,0 +1,29 @@
+.product__text {
+  @include reset-indents();
+  @include font-params(17px, 1.17, bold);
+  margin-top: 5px;
+  color: $color-light-turquoise;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .product__text {
+    @include font-params(17px, 1, bold);
+    box-sizing: border-box;
+    width: 168px;
+    margin-top: 48px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1150px) {
+  .product__text {
+    margin-top: 125px;
+    padding-left: 35px;
+    padding-right: 35px;
+    order: -1;
+  }
+}

@@ -1,0 +1,25 @@
+.feedback__page-item {
+  position: relative;
+  box-sizing: border-box;
+  width: 132px;
+  height: 50px;
+  padding: 0;
+  text-align: center;
+  background-color: $color-white;
+  border: 1px solid $color-light-grey;
+}
+
+.feedback__page-item:hover {
+  opacity: 0.6;
+}
+
+.feedback__page-item:active {
+  opacity: 0.3;
+}
+
+@media (min-width: 768px) {
+  .feedback__page-item {
+    width: 90px;
+    border: none;
+  }
+}

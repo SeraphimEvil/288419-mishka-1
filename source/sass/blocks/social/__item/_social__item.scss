@@ -1,0 +1,17 @@
+.social__item {
+  width: 60px;
+  height: 30px;
+  text-align: center;
+}
+
+.social__item svg {
+  transition: 300ms ease-out;
+}
+
+.social__item svg:hover {
+  fill: $color-dark-turquoise2;
+}
+
+.social__item svg:active {
+  opacity: 0.3;
+}

@@ -1,0 +1,19 @@
+.feedback__signature {
+  @include font-params(17px, 1.76);
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  font-style: normal;
+}
+
+@media (min-width: 768px) {
+  .feedback__signature {
+    margin-top: 65px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .feedback__signature {
+    margin-top: 40px;
+  }
+}

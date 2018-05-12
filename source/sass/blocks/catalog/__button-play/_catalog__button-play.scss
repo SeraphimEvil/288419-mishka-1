@@ -1,0 +1,25 @@
+.catalog__button-play {
+  position: absolute;
+  width: 100px;
+  height: 76px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("../img/icon-play.svg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  z-index: 100;
+}
+
+.catalog__button-play:hover {
+  width: 120px;
+  height: 92px;
+  background-size: cover;
+}
+
+.catalog__button-play:active {
+  width: 80px;
+  height: 61px;
+  opacity: 0.3;
+}

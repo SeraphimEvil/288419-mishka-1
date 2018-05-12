@@ -1,0 +1,34 @@
+.feedback {
+  @include container(260px);
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px 50px;
+  background-image: url("../img/bg-zigzag-line.svg");
+  background-repeat: repeat-x;
+  background-position: left bottom;
+  background-size: auto 7px;
+}
+
+@media (min-width: 768px) {
+  .feedback {
+    @include container(668px);
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 50px 130px;
+    background-image: url("../img/review@1x.jpg"), url("../img/bg-zigzag-line.svg");
+    background-repeat: no-repeat, repeat-x;
+    background-position: 0 60px, left bottom;
+    background-size: auto, auto 15px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .feedback {
+    @include container(875px);
+    padding: 0 100px 180px 275px;
+    background-position: 100px 60px, left bottom;
+    background-size: auto, auto 20px;
+  }
+}

@@ -1,0 +1,34 @@
+.contacts__title {
+  @include reset-indents();
+  @include font-params(18px, 1.66, bold);
+}
+
+@media (min-width: 768px) {
+  .contacts__title {
+    @include font-params(43px, 1.16, bold);
+    position: relative;
+  }
+
+  .contacts__title::before {
+    content: "";
+    position: absolute;
+    width: 47px;
+    height: 82px;
+    right: 0;
+    top: -15px;
+    background-image: url("../img/icon-flag.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 1150px) {
+  .contacts__title {
+    @include font-params(53px, 1.07, bold);
+    margin-top: 152px;
+  }
+
+  .contacts__title::before {
+    left: -110px;
+    top: -10px;
+  }
+}

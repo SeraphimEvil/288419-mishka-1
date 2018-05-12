@@ -1,0 +1,30 @@
+.main-menu__list2 {
+  @include reset-indents();
+  @include list-base-style();
+  @include font-params(17px, 1.4, bold);
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .main-menu__list2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 350px;
+  }
+
+  .main-menu__list2 li {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 0;
+    text-align: right;
+    border-bottom: none;
+  }
+}
+
+@media (min-width: 1150px) {
+  .main-menu__list2 {
+    justify-content: flex-end;
+  }
+}

@@ -1,0 +1,19 @@
+.contacts__button {
+  margin-top: 42px;
+  align-self: center;
+}
+
+@media (min-width: 768px) {
+  .contacts__button {
+    width: 230px;
+    margin-top: 52px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .contacts__button {
+    position: absolute;
+    bottom: 0;
+    left: 275px;
+  }
+}

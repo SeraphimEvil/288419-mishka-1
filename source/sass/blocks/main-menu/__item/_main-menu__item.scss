@@ -1,0 +1,38 @@
+.main-menu__item {
+  @include bottom-border-grey();
+  position: relative;
+  padding-left: 75px;
+  padding-top: 25px;
+  padding-bottom: 29px;
+}
+
+.main-menu__item .main-menu__icon {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: 35px;
+  opacity: 0.2;
+}
+
+@media (min-width: 768px) {
+  .main-menu__item--search {
+    width: 82px;
+    border-left: 1px solid $color-grey;
+    border-right: 1px solid $color-grey;
+  }
+
+  .main-menu__item--search span {
+    display: none;
+  }
+
+  .main-menu__item--cart {
+    width: 266px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .main-menu__list .main-menu__item--order {
+    padding-right: 0;
+    padding-left: 35px;
+    border-left: 1px solid $color-grey;
+  }
+}

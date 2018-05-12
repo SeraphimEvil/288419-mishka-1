@@ -1,0 +1,21 @@
+.main-page__catalog {
+  @include reset-indents();
+  @include list-base-style();
+  @include container(320px);
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .main-page__catalog {
+    @include container(668px);
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1150px) {
+  .main-page__catalog {
+    @include container(1050px);
+    padding: 0 100px;
+  }
+}

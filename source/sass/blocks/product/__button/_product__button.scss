@@ -1,0 +1,10 @@
+.product__button {
+  margin-top: 25px;
+}
+
+@media (min-width: 768px) {
+  .product__button {
+    width: 290px;
+    margin-top: 33px;
+  }
+}

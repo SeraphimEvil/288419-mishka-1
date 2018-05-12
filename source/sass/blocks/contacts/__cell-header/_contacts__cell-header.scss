@@ -1,0 +1,11 @@
+.contacts__cell-header {
+  padding-right: 30px;
+  font-weight: normal;
+  vertical-align: top;
+}
+
+@media (min-width: 768px) {
+  .contacts__cell-header {
+    padding-right: 25px;
+  }
+}

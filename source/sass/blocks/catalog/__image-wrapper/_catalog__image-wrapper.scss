@@ -1,0 +1,20 @@
+.catalog__image-wrapper {
+  position: relative;
+  margin-top: 25px;
+}
+
+@media (min-width: 768px) {
+  .catalog__image-wrapper {
+    margin-top: 0;
+    order: -1;
+  }
+}
+
+@media (min-width: 1150px) {
+  .catalog__image-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    order: 1;
+  }
+}

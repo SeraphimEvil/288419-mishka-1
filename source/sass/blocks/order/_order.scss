@@ -1,0 +1,24 @@
+.order {
+  @include container(260px);
+  padding: 0 30px;
+  margin-top: 20px;
+  margin-bottom: 55px;
+}
+
+@media (min-width: 768px) {
+  .order {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1150px) {
+  .order {
+    margin-top: 120px;
+    margin-bottom: 45px;
+  }
+}
