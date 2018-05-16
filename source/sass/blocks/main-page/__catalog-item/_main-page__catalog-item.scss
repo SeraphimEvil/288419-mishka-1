@@ -83,6 +83,18 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 1049px) {
+  .main-page__catalog-item a {
+    padding: 26px 30px 42px;
+  }
+
+  .main-page__catalog-item--accessory,
+  .main-page__catalog-item--toys {
+    background-size: auto 25px;
+    background-position: 0 bottom;
+  }
+}
+
 @media (min-width: 1150px) {
   .main-page__catalog-item {
     width: 525px;

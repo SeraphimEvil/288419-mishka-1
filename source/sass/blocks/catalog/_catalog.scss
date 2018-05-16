@@ -12,6 +12,12 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 1049px) {
+  .catalog {
+    padding-top: 75px;
+  }
+}
+
 @media (min-width: 1150px) {
   .catalog {
     @include container(1050px);

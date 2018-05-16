@@ -73,6 +73,12 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 1049px) {
+  .order__field-text--textarea {
+    margin-top: 48px;
+  }
+}
+
 @media (min-width: 1150px) {
   .order__field-text {
     flex-grow: 0;

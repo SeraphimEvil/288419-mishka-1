@@ -15,6 +15,12 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 1049px) {
+  .main-menu__note {
+    padding-top: 18px;
+  }
+}
+
 @media (min-width: 1150px) {
   .main-menu__note {
     padding-top: 17px;

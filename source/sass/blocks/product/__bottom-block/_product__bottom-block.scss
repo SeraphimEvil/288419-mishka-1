@@ -13,6 +13,12 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 1049px) {
+  .product__bottom-block {
+    bottom: 11px;
+  }
+}
+
 @media (min-width: 1150px) {
   .product__bottom-block {
     bottom: 90px;

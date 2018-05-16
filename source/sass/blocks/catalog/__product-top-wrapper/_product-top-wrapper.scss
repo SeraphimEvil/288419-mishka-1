@@ -13,6 +13,14 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 1049px) {
+  .catalog__product-top-wrapper {
+    margin-bottom: 20px;
+    padding-bottom: 7px;
+    padding-top: 25px;
+  }
+}
+
 @media (min-width: 1150px) {
   .catalog__product-top-wrapper {
     min-height: 100px;

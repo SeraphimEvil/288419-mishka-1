@@ -23,6 +23,12 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 1049px) {
+  .main-menu__list li {
+    padding-top: 18px;
+  }
+}
+
 @media (min-width: 1150px) {
   .main-menu__list {
     @include font-params(17px, 1.4, bold);

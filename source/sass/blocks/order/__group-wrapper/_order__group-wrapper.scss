@@ -60,6 +60,16 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 1049px) {
+  .order__group-wrapper {
+    padding-top: 75px;
+  }
+
+  .order__group-wrapper--name {
+    padding-top: 64px;
+  }
+}
+
 @media (min-width: 1150px) {
   .order__group-wrapper {
     width: 875px;

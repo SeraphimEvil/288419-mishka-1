@@ -12,6 +12,12 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 1049px) {
+  .contacts {
+    padding-bottom: 60px;
+  }
+}
+
 @media (min-width: 1150px) {
   .contacts {
     @include container(875px);

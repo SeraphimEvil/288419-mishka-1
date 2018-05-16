@@ -10,6 +10,12 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 1049px) {
+  .contacts__button {
+    margin-top: 44px;
+  }
+}
+
 @media (min-width: 1150px) {
   .contacts__button {
     position: absolute;
