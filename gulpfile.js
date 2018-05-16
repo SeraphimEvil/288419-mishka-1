@@ -21,9 +21,7 @@ var path = require('path');
 var imagemin = require('gulp-imagemin');
 
 var srcPath = 'source';
-var argv = require('minimist')(process.argv.slice(2));
-var isOnProduction = !!argv.production;
-var buildPath = isOnProduction ? 'build' : 'tmp';
+var buildPath = 'build';
 
 
 gulp.task("serve", ["build"], function () {
@@ -76,7 +74,6 @@ gulp.task('style', function() {
     .pipe(plumber({
       errorHandler: notify.onError('Error:  <%= error.message %>')
     }))
-    .pipe(gulpIf(!isOnProduction, sourcemaps.init()))
     .pipe(sass())
     .pipe(postcss([
       mqpacker,
@@ -98,7 +95,6 @@ gulp.task('style', function() {
       })
     ]))
     .pipe(rename('style.min.css'))
-    .pipe(gulpIf(!isOnProduction, sourcemaps.write()))
     .pipe(gulp.dest(path.join(buildPath, 'css')))
     .pipe(server.stream({match: '**/*.css'}));
 });
