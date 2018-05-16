@@ -7,6 +7,12 @@
   border: none;
 }
 
+@media (max-width: 767px) {
+  .contacts__map-wrapper iframe {
+    height: 465px;
+  }
+}
+
 @media (min-width: 768px) {
   .contacts__map-wrapper iframe {
     width: 768px;

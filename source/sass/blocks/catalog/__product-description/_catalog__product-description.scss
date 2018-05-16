@@ -6,6 +6,12 @@
   transition: 300ms ease-out;
 }
 
+@media (max-width: 767px) {
+  .catalog__product-description {
+    padding-top: 15px;
+  }
+}
+
 @media (min-width: 768px) {
   .catalog__product-description {
     @include container(284px);

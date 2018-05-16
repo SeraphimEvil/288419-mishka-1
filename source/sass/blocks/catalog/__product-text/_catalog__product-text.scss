@@ -1,7 +1,7 @@
 .catalog__product-text {
   @include reset-indents();
   @include font-params(13px, 2.3, normal);
-  margin-top: 7px;
+  margin-top: 5px;
 }
 
 @media (min-width: 768px) {

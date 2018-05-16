@@ -61,6 +61,17 @@
   }
 }
 
+@media (max-width: 767px) {
+  .main-page__catalog-item--accessory a:after {
+    top: calc(50% - 29px);
+  }
+
+  .main-page__catalog-item--toys a:after {
+    right: 25px;
+    top: calc(50% - 31px);
+  }
+}
+
 @media (min-width: 768px) {
   .main-page__catalog-item {
     @include font-params(20px, 1.5, bold);

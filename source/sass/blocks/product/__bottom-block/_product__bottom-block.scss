@@ -4,6 +4,12 @@
   margin-top: 23px;
 }
 
+@media (max-width: 767px) {
+  .product__bottom-block {
+    margin-top: 14px;
+  }
+}
+
 @media (min-width: 768px) {
   .product__bottom-block {
     position: absolute;

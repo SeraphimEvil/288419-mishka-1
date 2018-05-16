@@ -3,6 +3,12 @@
   align-self: center;
 }
 
+@media (max-width: 767px) {
+  .contacts__button {
+    margin-top: 27px;
+  }
+}
+
 @media (min-width: 768px) {
   .contacts__button {
     width: 230px;

@@ -24,6 +24,12 @@
   padding-top: 23px;
 }
 
+@media (max-width: 767px) {
+  .order__group-wrapper--name .order__field-wrapper {
+    margin-bottom: 8px;
+  }
+}
+
 @media (min-width: 768px) {
   .order__group-wrapper {
     display: flex;

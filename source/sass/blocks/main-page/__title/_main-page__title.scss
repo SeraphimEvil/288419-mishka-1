@@ -40,6 +40,17 @@
   }
 }
 
+@media (max-width: 767px) {
+  .main-page__title h1 {
+    margin-top: 73px;
+  }
+
+  .main-page__title--inner-page h1 {
+    margin-top: 0;
+    padding-top: 73px;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1049px) {
   .main-page__title h1 {
     padding-top: 91px;
