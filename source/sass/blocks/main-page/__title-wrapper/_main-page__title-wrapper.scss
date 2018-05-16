@@ -2,6 +2,12 @@
   background-color: $color-light-grey2;
 }
 
+@media (min-width: 1150px) {
+  .main-page__title-wrapper {
+    background-size: auto 40px;
+  }
+}
+
 @media (min-width: 768px) {
   .main-page__title-wrapper {
     margin-top: -54px;
