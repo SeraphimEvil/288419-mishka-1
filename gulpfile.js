@@ -59,7 +59,7 @@ gulp.task('html', function() {
 // js
 gulp.task('js', function() {
   gulp.src(['**/*.js'], {cwd: path.join(srcPath)})
-    .pipe(gulp.dest(path.join(buildPath, 'js')))
+    .pipe(gulp.dest(path.join(buildPath)))
 });
 
 // font
