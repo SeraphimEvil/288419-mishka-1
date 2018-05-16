@@ -8,3 +8,9 @@
   background-image: url("../img/icon-feature-money.svg");
   background-repeat: no-repeat;
 }
+
+@media (min-width: 1150px) {
+  .about-us__item--icon-2 {
+    order: 4;
+  }
+}

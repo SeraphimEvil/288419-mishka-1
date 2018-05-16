@@ -1,8 +1,6 @@
 .main-page__catalog-item {
   @include font-params(19px, 1.26, bold);
   position: relative;
-  //padding-top: 26px;
-  //padding-bottom: 30px;
   transition: 300ms ease-out;
 
   a {
@@ -24,8 +22,8 @@
     position: absolute;
     width: 40px;
     height: 62px;
-    right: 35px;
-    top: calc(50% - 31px);
+    right: 36px;
+    top: calc(50% - 40px);
     background-image: url("../img/icon-interior.svg");
     background-repeat: no-repeat;
     opacity: 0.5;
@@ -55,8 +53,8 @@
     position: absolute;
     width: 60px;
     height: 60px;
-    right: 30px;
-    top: calc(50% - 30px);
+    right: 35px;
+    top: calc(50% - 38px);
     background-image: url("../img/icon-toy.svg");
     background-repeat: no-repeat;
     opacity: 0.5;
@@ -73,14 +71,14 @@
       background-image: url("../img/bg-zigzag-fill.svg");
       background-repeat: repeat-x;
       background-position: left bottom;
-      background-size: auto 20px;
+      background-size: auto 37px;
     }
 
     &--toys {
       background-image: url("../img/bg-zigzag-fill.svg");
       background-repeat: repeat-x;
       background-position: 5px bottom;
-      background-size: auto 20px;
+      background-size: auto 37px;
     }
   }
 }
@@ -91,11 +89,15 @@
 
     a {
       margin: 0;
-      padding: 26px 30px 30px;
+      padding: 26px 30px 50px;
+    }
+
+    &--accessory {
+      background-position: 25px bottom;
     }
 
     &--toys {
-      background-position: 15px bottom;
+      background-position: 0 bottom;
     }
   }
 }
