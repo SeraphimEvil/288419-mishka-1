@@ -13,8 +13,6 @@
     "@htmlacademy/editorconfig-cli": "1.x",
     "stylelint": "9.2.x",
     "stylelint-config-htmlacademy": "0.1.x",
-    "gulp-if": "^2.0.0",
-    "gulp-sourcemaps": "^1.6.0",
     "css-mqpacker": "^4.0.1",
     "postcss-flexboxfixer": "0.0.4",
     "postcss-assets": "^4.0.1",

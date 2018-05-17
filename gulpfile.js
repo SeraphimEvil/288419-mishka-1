@@ -9,8 +9,6 @@ var server = require("browser-sync");
 
 var del = require('del');
 var runSequence = require('run-sequence');
-var gulpIf = require('gulp-if');
-var sourcemaps = require('gulp-sourcemaps');
 var mqpacker = require('css-mqpacker');
 var flexboxfixer = require('postcss-flexboxfixer');
 var assets = require('postcss-assets');
