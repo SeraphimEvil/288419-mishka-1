@@ -26,6 +26,15 @@
   .order__field-wrapper {
     margin-bottom: 57px;
   }
+
+  .order__field-wrapper--color {
+    width: 50%;
+  }
+
+  .order__field-wrapper--color:nth-child(2n) {
+    box-sizing: border-box;
+    padding-left: 11px;
+  }
 }
 
 @media (min-width: 1150px) {

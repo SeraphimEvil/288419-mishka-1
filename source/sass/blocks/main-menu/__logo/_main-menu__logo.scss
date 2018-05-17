@@ -29,3 +29,15 @@
     padding-top: 22px;
   }
 }
+
+@media (min-width: 1150px) {
+  .main-menu__logo {
+    width: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: absolute;
+    left: 50%;
+    top: 8px;
+    transform: translateX(-50%);
+  }
+}
