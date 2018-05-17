@@ -17,6 +17,8 @@ var rename = require('gulp-rename');
 var notify = require('gulp-notify');
 var path = require('path');
 var imagemin = require('gulp-imagemin');
+var concat = require('gulp-concat');
+var uglify = require('gulp-uglify');
 
 var srcPath = 'source';
 var buildPath = 'build';
@@ -57,7 +59,11 @@ gulp.task('html', function() {
 // js
 gulp.task('js', function() {
   gulp.src(['**/*.js'], {cwd: path.join(srcPath)})
-    .pipe(gulp.dest(path.join(buildPath)))
+    .pipe(concat('script.js'))
+    .pipe(gulp.dest(path.join(buildPath, 'js')))
+    .pipe(uglify())
+    .pipe(rename('script.min.js'))
+    .pipe(gulp.dest(path.join(buildPath, 'js')))
 });
 
 // font
